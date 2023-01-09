@@ -6,7 +6,7 @@ import pytube as utube
 class Links:
     def __init__(self, root):
         self.root = root
-        root.title("My Tkinter App")
+        root.title("linking")
         self.label = tk.Label(root, text="No path selected")
         self.button = tk.Button(
             root, text="Select folder", command=self.select_path)
